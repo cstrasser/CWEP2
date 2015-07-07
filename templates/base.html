@@ -20,9 +20,11 @@
        <span class="sr-only" >Toggle navigation</span>  </button>
       <a class="navbar-brand" href="/about/"><img alt="Apes II" src= {% static "images/newterra-logo.jpg" %}/></a>
       <ul class="nav navbar-nav navbar-right">
-      <li><a href="/about/"><font color='white'>Info </font></a></li>
+       {% if user.is_authenticated %}
+        <li><a href="/login/"><font color='white'>{{user.username}}</font></a></li> 
+       {%endif%}       
       </ul>
-   
+       
      </div> <!--Navbar-->
      <div class= "page-header">
      {% block page_header%}{% endblock %}

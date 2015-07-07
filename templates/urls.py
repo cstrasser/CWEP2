@@ -14,25 +14,10 @@ Including another URLconf
     2. Add a URL to urlpatterns:  url(r'^blog/', include(blog_urls))
 """
 from django.conf.urls import include, url
-from django.contrib import admin
-
-
-admin.site.site_header = 'APESII Administration'
-#admin.site.register(Customer)
-#admin.site.register(LocationMaster)
-#admin.site.register(STO)
-#admin.site.register(Contact)
-
 
 
 urlpatterns = [
-    #url(r'^sto/', include('sto.urls')),
-    
-    url(r'^login/', include('logauth.urls')),
-    url(r'^logout/', 'logauth.views.logout', name='logout'),
-    url(r'^about/$', 'logauth.views.about', name='about'),
-    url(r'^admin/', include(admin.site.urls)),
-    url(r'^staff/', include('staff.urls')),
+    url(r'^$', 'staff.views.staffpage', name='staffpage'),
     
     
 ]

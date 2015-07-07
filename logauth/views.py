@@ -1,43 +1,37 @@
 from django.shortcuts import render
-from django.contrib.auth import authenticate 
+from django.contrib.auth import authenticate, login, logout
+from django.contrib.auth.decorators import login_required
 from django.contrib.auth.models import User
-from django.contrib.auth.forms import UserCreationForm
-from django.core.context_processors import csrf
 
-def login(request):
-    context = {}
-    
+
+def ntlogin(request):
+       
     if request.method =='POST':
         username = request.POST['username']
         password = request.POST['password']
         user = authenticate(username=username, password=password)
-        print user 
         if user is not None:
             if user.is_active:
              print("User is valid, active and authenticated")
+             login(request,user)
              return render(request,'logauth/success.html',{'username':user})
             else:
                 print("The password is valid, but the account has been disabled!")
+                #use django messages here to show error on user screen
         else:
          print("The username and password were incorrect.")
-         return render(request,'logauth/loginform.html',context)
-        
+          #use django messages here to show error on user screen
+         
     else:
-     print "got Here ======================================"
-     return render(request,'logauth/loginform.html', context)
+        return render(request,'logauth/loginform.html')
      
+def about(request):
+    return render(request,'about.html')
+
+
+@login_required
+def user_logout(request):
+    logout(request)
     
+    return redirect('http://newterra.com')
 
-
-# from django.contrib.auth import authenticate
-# user = authenticate(username='john', password='secret')
-# if user is not None:
-#     # the password verified for the user
-#     if user.is_active:
-#         print("User is valid, active and authenticated")
-#     else:
-#         print("The password is valid, but the account has been disabled!")
-# else:
-#     # the authentication system was unable to verify the username and password
-#     print("The username and password were incorrect.")
-#https://docs.djangoproject.com/en/1.8/topics/auth/default/

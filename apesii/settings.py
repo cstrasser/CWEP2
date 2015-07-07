@@ -12,21 +12,20 @@ https://docs.djangoproject.com/en/1.8/ref/settings/
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 import os
-
+from keys import DB_PASS
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 TEMPLATE_PATH = os.path.join(BASE_DIR, 'templates')
 STATIC_PATH = os.path.join(BASE_DIR,'static')
 STATIC_URL = '/static/'
-print "Base= %r  \nTemplate = %r" %(BASE_DIR, TEMPLATE_PATH)
-print 'staticpath = %s' % STATIC_PATH
+
 
 STATICFILES_DIRS = (
         STATIC_PATH,
 )
 #print 'staticdirs %s' %STATICFILES_DIRS
 TEMPLATE_DIRS = ( TEMPLATE_PATH,)
-print TEMPLATE_DIRS
+
 MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 
@@ -69,10 +68,11 @@ MIDDLEWARE_CLASSES = (
 
 ROOT_URLCONF = 'apesii.urls'
 
+TEMPLATE_PATH = os.path.join(BASE_DIR, 'templates')
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [TEMPLATE_PATH],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -96,7 +96,7 @@ DATABASES = {
     'ENGINE': 'sql_server.pyodbc',
     'NAME': 'APES_DJANGO',
     'USER': 'sa',
-    'PASSWORD': 'Aema6veG',
+    'PASSWORD': DB_PASS,
     'HOST': '10.0.0.133',
     'PORT': '1433',
     'OPTIONS': {

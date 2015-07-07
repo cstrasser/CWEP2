@@ -3,7 +3,9 @@ from . import views
 
 urlpatterns = (
     
-    url(r'^$', 'logauth.views.login', name='login'),
+    url(r'^$', 'logauth.views.ntlogin', name='ntlogin'),
+    url(r'^logout/$', views.user_logout, name='logout'),
+     
     # url(r'^login/$', 'django.contrib.auth.views.login', name='login'),
     # url(r'^logout/$', 'django.contrib.auth.views.logout', name='logout'),
     # url(r'^accounts/loggedin/$', 'views.success', name='success'),

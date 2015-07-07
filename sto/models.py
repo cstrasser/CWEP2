@@ -49,7 +49,7 @@ class LocationMaster(models.Model):
     default_tax_code = models.CharField(db_column='CLDefTaxCode', max_length=2, blank=True, null=True)  
     bill_to_default = models.IntegerField(db_column='CLBillToDefault', blank=True, null=True)  
     default_commission_rate = models.FloatField(db_column='CLDefCommRate', blank=True, null=True)  
-    entered_by = models.CharField(db_column='CLEnteredBy', max_length=50, blank=True, null=True)  
+    enteredy = models.CharField(db_column='CLEnteredBy', max_length=50, blank=True, null=True)  
     entered_date = models.DateTimeField(db_column='CLEnteredDate', blank=True, null=True)  
     modified_by = models.CharField(db_column='CLModifiedBy', max_length=50, blank=True, null=True)  
     modified_date = models.DateTimeField(db_column='CLModifiedDate', blank=True, null=True)  
