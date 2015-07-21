@@ -4,8 +4,9 @@ from . import views
 urlpatterns = (
     
     url(r'^$', 'logauth.views.ntlogin', name='ntlogin'),
-    url(r'^logout/$', views.user_logout, name='logout'),
-     
+    url(r'^logout/$', 'logauth.views.user_logout', name='logout'),
+    #url(r'^staff/', staff.views.form, name='logout'),
+    url(r'about/$', 'logauth.views.about', name='about'),
     # url(r'^login/$', 'django.contrib.auth.views.login', name='login'),
     # url(r'^logout/$', 'django.contrib.auth.views.logout', name='logout'),
     # url(r'^accounts/loggedin/$', 'views.success', name='success'),

@@ -1,0 +1,60 @@
+{% extends 'base.html' %}
+{% load staticfiles %}
+    
+{%block page_title %} {{page_title}}  {%endblock%}
+
+
+{%block  sidebar_block %} <h4><a href="/sto">Main</a><br /><p></p></h4>{% endblock %}
+
+{% block body_block%}
+
+        <h1>{{stid}} {{customer_name}}<h6>  new {{form.entrydate}}</h6></h1>
+
+        <form id="STOForm" method="post" action="">
+            <input type="submit" name="submit" value="Save" />
+            <input type="submit" name="cancel" formaction="/sto/" value="Cancel" /><p></p>
+            {% csrf_token %}
+            Project {{form.project}} 
+            Manager {{form.person_responsible}}  <p></p>
+            
+           Contact <strong>{{contact}} {% if contact != 'none' %}() {%endif%}</strong>
+           Tel.{{form.phone}} ref{{form.reference}}<p></p><p>{{ form.notes}}</p>
+    <hr>
+          
+            <!--<table>-->
+            <!--<tr>{{form.add1}}<td>City</td> <td>{{form.city}}</td></tr> -->
+            <!--<tr><p>{{form.add2}} State/Prov {{form.state}}</p> </tr>-->
+            <!--<tr><p>{{form.add3}} Zip/PC {{form.stzip}} </p> </tr>-->
+            <!--</table>-->
+            <!--<p></p>-->
+            <table>
+            <tr>
+               <td>{{form.add1}} City<td> {{form.city}}</td>
+            </tr>
+            <tr>
+              <td> {{form.add2}} State/Prov <td> {{form.state}}</td>
+            </tr>
+            <tr>
+              <td> {{form.add3}} Zip/PC <td> {{form.stzip}}</td>
+            </tr>
+            
+            
+            
+            
+            </table>
+            
+            
+            
+            
+            <hr>
+            <p>Tag{{form.tag|ljust:"50"}}</p>
+            <p>Email{{form.email}}</p>
+            <p>Billing Type{{form.billing}}
+            {{form.stid}}
+            Status {{form.status}}</p>
+            
+
+           
+        </form>
+        
+{% endblock%}

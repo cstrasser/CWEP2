@@ -1,0 +1,36 @@
+{% extends 'base.html' %}
+
+{% block body_block %}
+     <div class="row-fluid">
+    <table class="table table-striped" id ="mytable">
+      <thead>
+        <tr>
+          <th class=col-sm-1>First Name</th>
+          <th class=col-sm-1>Last Name</th>
+          <th class=col-sm-2>Staffname</th>
+          <th class=col-sm-1>Emerg Contact</th>
+          <th class=col-sm-1>Emerg Phone</th>
+          
+        </tr>
+      </thead>
+    </div>
+      <tbody>
+    
+{% for staffmember in stafflist %}
+            
+          <div class = 'stafflist'>
+           <tr> 
+            <td><a href="{{ staffmember.number }}" class = "sfaffmmember">{{staffmember.first_name}}</a></td>
+            <td><a href="{{ staffmember.number }}" class = "sfaffmmember">{{staffmember.last_name}}</a></td>
+            <td><a href="{{ staffmember.number }}" class = "sfaffmmember">{{staffmember.staffname}}</a></td>
+            <td><a href="{{ staffmember.number }}" class = "sfaffmmember">{{staffmember.emg_contact_name}}</a></td>
+            <td><a href="{{ staffmember.number }}" class = "sfaffmmember">{{staffmember.emg_contact_phone}}</a></td>
+                       
+          </tr>
+       </div> 
+ 
+{%endfor%}
+    
+        
+    
+{% endblock %}

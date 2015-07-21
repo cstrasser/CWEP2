@@ -1,7 +1,9 @@
 from django.db import models
+from django.contrib import admin
+from django.contrib.auth.admin import UserAdmin
 from django.contrib.auth.models import User
 
-class Company(models.Model): # company is newterra co ... LTD INC,SPA
+class Company(models.Model):
     id = models.AutoField(db_column='id', primary_key=True)
     company = models.CharField(max_length=128)
     country = models.CharField(max_length=50)
@@ -43,12 +45,8 @@ class Staffworktype(models.Model):
         return (self.swt_type)
 
 class Staff(models.Model):
-    user = models.OneToOneField(User, primary_key=True, related_name='auth_profile')
-    '''NOTES on user USER and APES  added the column user_id to the staff table to make the above line work
-      added it as int allow null and set it identity specification yes save it .. the save
-      autopoputtlates the id's in the existing field then set the seed in the identiy spec to
-      greater than the last column and set as primary key '''
-    number = models.CharField(db_column='Staff_Number', max_length=10) 
+    user = models.OneToOneField(User)
+    number = models.CharField(db_column='Staff_Number', max_length=10, primary_key = True) 
     staffname = models.CharField(db_column='StaffName', max_length=50)  # Field name made lowercase.
     login_id = models.CharField(db_column='Staff_Login_ID', max_length=50, blank=True, null=True)  
     phone_ext = models.CharField(db_column='Staff_phone_ext', max_length=50, blank=True, null=True)  # Field name made lowercase.
@@ -86,10 +84,19 @@ class Staff(models.Model):
        #return self.name
        return unicode(self.staffname).encode('utf-8')
     
-    def get_emergency_contact(self):
-        return '%s %s' %(self.emg_contact_name,self.emg_contact_phone)
-    emergency_contact = property(get_emergency_contact)
-# the bit of code above will allow you to do x= Staff.emergency_contact x will be the  name and number
+    
+class StaffInline(admin.StackedInline):
+    model = Staff
+    can_delete = False
+
+
+class UserAdmin(UserAdmin):
+    inlines = (StaffInline, )
+
+
+admin.site.unregister(User)
+admin.site.register(User, UserAdmin)
+
 
 
 

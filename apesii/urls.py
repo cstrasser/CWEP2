@@ -28,8 +28,8 @@ admin.site.site_header = 'APESII Administration'
 urlpatterns = [
     #url(r'^sto/', include('sto.urls')),
     
-    url(r'^login/', include('logauth.urls')),
-    url(r'^logout/', 'logauth.views.logout', name='logout'),
+    url(r'^login/$', include('logauth.urls')),
+    url(r'^logout/$', 'logauth.views.logout', name='logout'),
     url(r'^about/$', 'logauth.views.about', name='about'),
     url(r'^admin/', include(admin.site.urls)),
     url(r'^staff/', include('staff.urls')),

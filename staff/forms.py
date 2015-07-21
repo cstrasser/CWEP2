@@ -1,5 +1,5 @@
 from django import forms
-from logauth.models import Staff
+from staff.models import Staff
 
 class StaffForm(forms.ModelForm):
     number  = forms.CharField(max_length=10, help_text="Employee ID number")
@@ -12,7 +12,7 @@ class StaffForm(forms.ModelForm):
     class Meta:
         model = Staff
         #fields = ('staffname','login_id')
-        exclude = ('designation',)
+        exclude = ('att_date','att_time','last_trans', 'attendance','pin_req','end_date')
         
         
     

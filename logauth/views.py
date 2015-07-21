@@ -17,10 +17,10 @@ def ntlogin(request):
              return render(request,'logauth/success.html',{'username':user})
             else:
                 print("The password is valid, but the account has been disabled!")
-                #use django messages here to show error on user screen
+                #use django messages  to show error on user screen
         else:
          print("The username and password were incorrect.")
-          #use django messages here to show error on user screen
+          #use django messages  to show error on user screen
          
     else:
         return render(request,'logauth/loginform.html')
