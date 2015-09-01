@@ -1,0 +1,88 @@
+{% extends 'base.html' %}
+{% load staticfiles %}
+    
+{%block page_title %} {{page_title}}  {%endblock%}
+
+{% block page_header%}
+<div class="page_head container-fluid"><!-- KEEP MAIN DESIGN-->
+<div class="col-md-1"><!-- KEEP MAIN DESIGN-->
+</div><!--KEEP Base design div sidebar-->
+<div class="col-md-11"> <!-- KEEP MAIN DESIGN-->
+ 
+ <div class="row">
+    
+  <div class="col-lg-4">
+    <div class="input-group">
+      <input type="text" class="form-control" placeholder="Search" aria-label="..." id ="search_item">
+     
+      <div class="input-group-btn">
+        <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+          <span class="caret"></span></button>
+        <ul class="dropdown-menu dropdown-menu-right" role="menu">
+          <li role="presentation" class="dropdown-header">Status</li>
+          <li><a href="/sto/filter/Active">Active</a></li>
+          <li><a href="/sto/filter/Closed">Closed</a></li>
+          <li class="divider"></li>
+          <li role="presentation" class="dropdown-header" >Billing</li>
+          <li><a href="#" id= "rental_filter">Rental</a></li>
+          <li><a href="#" id= "warranty_filter">Warranty</a></li>
+          <li><a href="#" id= "bill_filter">Bill</a></li>
+        </ul>
+        <button type="button" class="btn btn-info">New STO</button>
+      </div><!-- /btn-group -->
+    </div><!-- /input-group -->
+  </div><!-- /.col-lg-6 -->
+</div><!-- /.row -->
+
+     
+</div><!--KEEP Base designcol md 11 main header large column area -->
+</div> <!-- KEEP BASE DESIGN Container Fluid main header container-->
+  
+{% endblock %}
+  
+{%block  sidebar_block %} <h4><a href="/">Main</a><br /><p></p></h4>{% endblock %}
+{% block body_block%}
+    
+    <div class="row-fluid">
+    <table class="table table-striped" id ="mytable">
+      <thead>
+        <tr>
+          <th class=col-sm-1>STO#</th>
+          <th class=col-sm-1>Poject</th>
+          <th class=col-sm-1>Customer</th>
+          <th class=col-sm-4>Notes</th>
+          <th class=col-sm-1>Assigned</th>
+          <th class=col-sm-1>Date Opened</th>
+          <th class=col-sm-1>Status</th>
+          <th class=col-sm-1>Billing</th>
+        </tr>
+      </thead>
+    </div>
+      <tbody>
+    
+        
+          
+        {% for item  in list %}
+            {% if item.project %}
+          <div class = 'stolist'>
+           <tr> 
+            <td><a href="{{ item.stid }}" class = "stoitem">{{item.stid}}</a></td>
+            <td>{{item.project}}</td>
+            <td>{{item.customer_location.customer}}</td>
+            <td>{{item.notes}}</td>
+            <td>{{item.person_responsible}}</td>
+            <td>{{item.entrydate|date:'M-d-y'}}</td>
+          <td>{{item.status}}</td>
+          <td>{{item.billing}}</td>  
+          </tr>
+       </div> <!-- stolist-->
+           {% endif %}
+         
+        {% endfor %}
+        
+      </tbody>
+    </table>
+  </div>
+</div>
+  
+ {%endblock%}

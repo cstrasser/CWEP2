@@ -1,0 +1,12 @@
+*.pyc
+manage.py
+keys.py
+/static
+/lib
+/bin
+/local
+*.komodoproject
+
+  include/
+ pip-selfcheck.json
+

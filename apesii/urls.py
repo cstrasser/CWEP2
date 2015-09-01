@@ -15,7 +15,7 @@ Including another URLconf
 """
 from django.conf.urls import include, url
 from django.contrib import admin
-
+from django.views.generic.base import RedirectView
 
 admin.site.site_header = 'APESII Administration'
 #admin.site.register(Customer)
@@ -29,10 +29,11 @@ urlpatterns = [
     #url(r'^sto/', include('sto.urls')),
     
     url(r'^login/$', include('logauth.urls')),
-    url(r'^logout/$', 'logauth.views.logout', name='logout'),
+    url(r'^logout/$', 'logauth.views.user_logout', name='user_logout'),
     url(r'^about/$', 'logauth.views.about', name='about'),
     url(r'^admin/', include(admin.site.urls)),
     url(r'^staff/', include('staff.urls')),
-    
+    url(r'^navpage/$', 'navpage.views.navpage', name='navpage'),
+    url(r'^$', RedirectView.as_view(url='/login', permanent=False), name='logindex')
     
 ]

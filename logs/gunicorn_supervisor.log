@@ -1,0 +1,549 @@
+Starting apesii as ntwebuser
+[2015-08-28 08:43:36 +0000] [9731] [INFO] Starting gunicorn 19.3.0
+[2015-08-28 08:43:36 +0000] [9731] [INFO] Listening at: http://0.0.0.0:8100 (9731)
+[2015-08-28 08:43:36 +0000] [9731] [INFO] Using worker: sync
+[2015-08-28 08:43:36 +0000] [9742] [INFO] Booting worker with pid: 9742
+[2015-08-28 13:18:31 +0000] [9731] [INFO] Handling signal: term
+[2015-08-28 17:18:31 +0000] [9742] [INFO] Worker exiting (pid: 9742)
+/webapps/apesweb/static
+staticpath = /webapps/apesweb/static
+mediadir = /media/ media root is /webapps/apesweb/media
+The username and password were incorrect.
+User is valid, active and authenticated
+User is valid, active and authenticated
+[2015-08-28 13:18:31 +0000] [9731] [INFO] Shutting down: Master
+Starting apesii as ntwebuser
+[2015-08-28 13:19:18 +0000] [1049] [INFO] Starting gunicorn 19.3.0
+[2015-08-28 13:19:18 +0000] [1049] [INFO] Listening at: http://0.0.0.0:8100 (1049)
+[2015-08-28 13:19:18 +0000] [1049] [INFO] Using worker: sync
+[2015-08-28 13:19:18 +0000] [1060] [INFO] Booting worker with pid: 1060
+[2015-08-28 14:33:25 +0000] [1049] [INFO] Handling signal: term
+[2015-08-28 18:33:25 +0000] [1060] [INFO] Worker exiting (pid: 1060)
+/webapps/apesweb/static
+staticpath = /webapps/apesweb/static
+mediadir = /media/ media root is /webapps/apesweb/media
+[2015-08-28 14:33:25 +0000] [1049] [INFO] Shutting down: Master
+Starting apesii as ntwebuser
+[2015-08-28 14:33:46 +0000] [1661] [INFO] Starting gunicorn 19.3.0
+[2015-08-28 14:33:46 +0000] [1661] [INFO] Listening at: http://0.0.0.0:8100 (1661)
+[2015-08-28 14:33:46 +0000] [1661] [INFO] Using worker: sync
+[2015-08-28 14:33:46 +0000] [1672] [INFO] Booting worker with pid: 1672
+[2015-08-28 15:26:19 +0000] [1661] [INFO] Handling signal: term
+[2015-08-28 19:26:19 +0000] [1672] [INFO] Worker exiting (pid: 1672)
+/webapps/apesweb/static
+staticpath = /webapps/apesweb/static
+mediadir = /media/ media root is /webapps/apesweb/media
+The username and password were incorrect.
+The username and password were incorrect.
+User is valid, active and authenticated
+The username and password were incorrect.
+User is valid, active and authenticated
+User is valid, active and authenticated
+User is valid, active and authenticated
+[2015-08-28 15:26:19 +0000] [1661] [INFO] Shutting down: Master
+Starting apesii as ntwebuser
+[2015-08-28 15:26:29 +0000] [1899] [INFO] Starting gunicorn 19.3.0
+[2015-08-28 15:26:29 +0000] [1899] [INFO] Listening at: http://0.0.0.0:8100 (1899)
+[2015-08-28 15:26:29 +0000] [1899] [INFO] Using worker: sync
+[2015-08-28 15:26:29 +0000] [1910] [INFO] Booting worker with pid: 1910
+[2015-08-28 15:28:48 +0000] [1899] [INFO] Handling signal: term
+[2015-08-28 19:28:48 +0000] [1910] [INFO] Worker exiting (pid: 1910)
+/webapps/apesweb/static
+staticpath = /webapps/apesweb/static
+mediadir = /media/ media root is /webapps/apesweb/media
+User is valid, active and authenticated
+[2015-08-28 15:28:48 +0000] [1899] [INFO] Shutting down: Master
+Starting apesii as ntwebuser
+[2015-08-28 15:29:10 +0000] [1948] [INFO] Starting gunicorn 19.3.0
+[2015-08-28 15:29:10 +0000] [1948] [INFO] Listening at: http://0.0.0.0:8100 (1948)
+[2015-08-28 15:29:10 +0000] [1948] [INFO] Using worker: sync
+[2015-08-28 15:29:10 +0000] [1959] [INFO] Booting worker with pid: 1959
+[2015-08-28 15:42:20 +0000] [1948] [INFO] Handling signal: term
+[2015-08-28 19:42:20 +0000] [1959] [INFO] Worker exiting (pid: 1959)
+/webapps/apesweb/static
+staticpath = /webapps/apesweb/static
+mediadir = /media/ media root is /webapps/apesweb/media
+User is valid, active and authenticated
+[2015-08-28 15:42:20 +0000] [1948] [INFO] Shutting down: Master
+Starting apesii as ntwebuser
+[2015-08-28 15:42:24 +0000] [2048] [INFO] Starting gunicorn 19.3.0
+[2015-08-28 15:42:24 +0000] [2048] [INFO] Listening at: http://0.0.0.0:8100 (2048)
+[2015-08-28 15:42:24 +0000] [2048] [INFO] Using worker: sync
+[2015-08-28 15:42:24 +0000] [2059] [INFO] Booting worker with pid: 2059
+[2015-08-28 15:46:54 +0000] [2048] [INFO] Handling signal: term
+[2015-08-28 19:46:54 +0000] [2059] [INFO] Worker exiting (pid: 2059)
+/webapps/apesweb/static
+staticpath = /webapps/apesweb/static
+mediadir = /media/ media root is /webapps/apesweb/media
+User is valid, active and authenticated
+User is valid, active and authenticated
+[2015-08-28 15:46:54 +0000] [2048] [INFO] Shutting down: Master
+Starting apesii as ntwebuser
+[2015-08-28 15:46:58 +0000] [2072] [INFO] Starting gunicorn 19.3.0
+[2015-08-28 15:46:58 +0000] [2072] [INFO] Listening at: http://0.0.0.0:8100 (2072)
+[2015-08-28 15:46:58 +0000] [2072] [INFO] Using worker: sync
+[2015-08-28 15:46:58 +0000] [2083] [INFO] Booting worker with pid: 2083
+[2015-08-28 15:47:50 +0000] [2072] [INFO] Handling signal: term
+[2015-08-28 19:47:50 +0000] [2083] [INFO] Worker exiting (pid: 2083)
+/webapps/apesweb/static
+staticpath = /webapps/apesweb/static
+mediadir = /media/ media root is /webapps/apesweb/media
+User is valid, active and authenticated
+User is valid, active and authenticated
+[2015-08-28 15:47:50 +0000] [2072] [INFO] Shutting down: Master
+Starting apesii as ntwebuser
+[2015-08-28 15:47:55 +0000] [2091] [INFO] Starting gunicorn 19.3.0
+[2015-08-28 15:47:55 +0000] [2091] [INFO] Listening at: http://0.0.0.0:8100 (2091)
+[2015-08-28 15:47:55 +0000] [2091] [INFO] Using worker: sync
+[2015-08-28 15:47:55 +0000] [2102] [INFO] Booting worker with pid: 2102
+[2015-08-28 15:48:58 +0000] [2091] [INFO] Handling signal: term
+[2015-08-28 19:48:58 +0000] [2102] [INFO] Worker exiting (pid: 2102)
+/webapps/apesweb/static
+staticpath = /webapps/apesweb/static
+mediadir = /media/ media root is /webapps/apesweb/media
+User is valid, active and authenticated
+User is valid, active and authenticated
+[2015-08-28 15:48:58 +0000] [2091] [INFO] Shutting down: Master
+Starting apesii as ntwebuser
+[2015-08-28 15:49:02 +0000] [2110] [INFO] Starting gunicorn 19.3.0
+[2015-08-28 15:49:02 +0000] [2110] [INFO] Listening at: http://0.0.0.0:8100 (2110)
+[2015-08-28 15:49:02 +0000] [2110] [INFO] Using worker: sync
+[2015-08-28 15:49:02 +0000] [2121] [INFO] Booting worker with pid: 2121
+[2015-08-31 07:12:45 +0000] [2110] [INFO] Handling signal: term
+[2015-08-31 11:12:45 +0000] [2121] [INFO] Worker exiting (pid: 2121)
+/webapps/apesweb/static
+staticpath = /webapps/apesweb/static
+mediadir = /media/ media root is /webapps/apesweb/media
+User is valid, active and authenticated
+User is valid, active and authenticated
+User is valid, active and authenticated
+User is valid, active and authenticated
+[2015-08-31 07:12:45 +0000] [2110] [INFO] Shutting down: Master
+Starting apesii as ntwebuser
+[2015-08-31 07:12:49 +0000] [21899] [INFO] Starting gunicorn 19.3.0
+[2015-08-31 07:12:49 +0000] [21899] [INFO] Listening at: http://0.0.0.0:8100 (21899)
+[2015-08-31 07:12:49 +0000] [21899] [INFO] Using worker: sync
+[2015-08-31 07:12:49 +0000] [21910] [INFO] Booting worker with pid: 21910
+[2015-08-31 15:30:58 +0000] [21899] [INFO] Handling signal: term
+[2015-08-31 19:30:58 +0000] [21910] [INFO] Worker exiting (pid: 21910)
+/webapps/apesweb/static
+staticpath = /webapps/apesweb/static
+mediadir = /media/ media root is /webapps/apesweb/media
+User is valid, active and authenticated
+User is valid, active and authenticated
+User is valid, active and authenticated
+User is valid, active and authenticated
+User is valid, active and authenticated
+[2015-08-31 15:30:58 +0000] [21899] [INFO] Shutting down: Master
+Starting apesii as ntwebuser
+[2015-08-31 15:31:10 +0000] [23669] [INFO] Starting gunicorn 19.3.0
+[2015-08-31 15:31:10 +0000] [23669] [INFO] Listening at: http://0.0.0.0:8100 (23669)
+[2015-08-31 15:31:10 +0000] [23669] [INFO] Using worker: sync
+[2015-08-31 15:31:10 +0000] [23680] [INFO] Booting worker with pid: 23680
+[2015-08-31 15:33:08 +0000] [23669] [INFO] Handling signal: term
+[2015-08-31 19:33:08 +0000] [23680] [INFO] Worker exiting (pid: 23680)
+/webapps/apesweb/static
+staticpath = /webapps/apesweb/static
+mediadir = /media/ media root is /webapps/apesweb/media
+[2015-08-31 15:33:08 +0000] [23669] [INFO] Shutting down: Master
+Starting apesii as ntwebuser
+[2015-08-31 15:33:12 +0000] [23689] [INFO] Starting gunicorn 19.3.0
+[2015-08-31 15:33:12 +0000] [23689] [INFO] Listening at: http://0.0.0.0:8100 (23689)
+[2015-08-31 15:33:12 +0000] [23689] [INFO] Using worker: sync
+[2015-08-31 15:33:12 +0000] [23700] [INFO] Booting worker with pid: 23700
+[2015-08-31 15:46:31 +0000] [23689] [INFO] Handling signal: term
+[2015-08-31 19:46:31 +0000] [23700] [INFO] Worker exiting (pid: 23700)
+/webapps/apesweb/static
+staticpath = /webapps/apesweb/static
+mediadir = /media/ media root is /webapps/apesweb/media
+User is valid, active and authenticated
+User is valid, active and authenticated
+[2015-08-31 15:46:31 +0000] [23689] [INFO] Shutting down: Master
+Starting apesii as ntwebuser
+[2015-08-31 15:46:37 +0000] [23726] [INFO] Starting gunicorn 19.3.0
+[2015-08-31 15:46:37 +0000] [23726] [INFO] Listening at: http://0.0.0.0:8100 (23726)
+[2015-08-31 15:46:37 +0000] [23726] [INFO] Using worker: sync
+[2015-08-31 15:46:37 +0000] [23737] [INFO] Booting worker with pid: 23737
+[2015-08-31 15:50:12 +0000] [23726] [INFO] Handling signal: term
+[2015-08-31 19:50:12 +0000] [23737] [INFO] Worker exiting (pid: 23737)
+/webapps/apesweb/static
+staticpath = /webapps/apesweb/static
+mediadir = /media/ media root is /webapps/apesweb/media
+[2015-08-31 15:50:12 +0000] [23726] [INFO] Shutting down: Master
+Starting apesii as ntwebuser
+[2015-08-31 15:50:15 +0000] [23747] [INFO] Starting gunicorn 19.3.0
+[2015-08-31 15:50:15 +0000] [23747] [INFO] Listening at: http://0.0.0.0:8100 (23747)
+[2015-08-31 15:50:15 +0000] [23747] [INFO] Using worker: sync
+[2015-08-31 15:50:15 +0000] [23758] [INFO] Booting worker with pid: 23758
+[2015-08-31 15:53:23 +0000] [23747] [INFO] Handling signal: term
+[2015-08-31 19:53:23 +0000] [23758] [INFO] Worker exiting (pid: 23758)
+/webapps/apesweb/static
+staticpath = /webapps/apesweb/static
+mediadir = /media/ media root is /webapps/apesweb/media
+User is valid, active and authenticated
+User is valid, active and authenticated
+[2015-08-31 15:53:23 +0000] [23747] [INFO] Shutting down: Master
+Starting apesii as ntwebuser
+[2015-08-31 15:53:27 +0000] [23768] [INFO] Starting gunicorn 19.3.0
+[2015-08-31 15:53:27 +0000] [23768] [INFO] Listening at: http://0.0.0.0:8100 (23768)
+[2015-08-31 15:53:27 +0000] [23768] [INFO] Using worker: sync
+[2015-08-31 15:53:27 +0000] [23779] [INFO] Booting worker with pid: 23779
+[2015-08-31 16:15:07 +0000] [23768] [INFO] Handling signal: term
+[2015-08-31 20:15:07 +0000] [23779] [INFO] Worker exiting (pid: 23779)
+/webapps/apesweb/static
+staticpath = /webapps/apesweb/static
+mediadir = /media/ media root is /webapps/apesweb/media
+User is valid, active and authenticated
+[2015-08-31 16:15:07 +0000] [23768] [INFO] Shutting down: Master
+Starting apesii as ntwebuser
+[2015-08-31 16:15:11 +0000] [23926] [INFO] Starting gunicorn 19.3.0
+[2015-08-31 16:15:11 +0000] [23926] [INFO] Listening at: http://0.0.0.0:8100 (23926)
+[2015-08-31 16:15:11 +0000] [23926] [INFO] Using worker: sync
+[2015-08-31 16:15:11 +0000] [23937] [INFO] Booting worker with pid: 23937
+[2015-09-01 06:54:47 +0000] [23926] [INFO] Handling signal: term
+[2015-09-01 10:54:47 +0000] [23937] [INFO] Worker exiting (pid: 23937)
+/webapps/apesweb/static
+staticpath = /webapps/apesweb/static
+mediadir = /media/ media root is /webapps/apesweb/media
+User is valid, active and authenticated
+User is valid, active and authenticated
+User is valid, active and authenticated
+[2015-09-01 06:54:47 +0000] [23926] [INFO] Shutting down: Master
+/webapps/apesweb/bin/gunicorn_start.bash: line 10: DJANGO_SETTINGS_MODULE: command not found
+Starting apesii as ntwebuser
+[2015-09-01 06:56:34 +0000] [27399] [INFO] Starting gunicorn 19.3.0
+[2015-09-01 06:56:34 +0000] [27399] [INFO] Listening at: http://0.0.0.0:8100 (27399)
+[2015-09-01 06:56:34 +0000] [27399] [INFO] Using worker: sync
+[2015-09-01 06:56:34 +0000] [27411] [INFO] Booting worker with pid: 27411
+[2015-09-01 06:56:35 +0000] [27411] [ERROR] Exception in worker process:
+Traceback (most recent call last):
+  File "/webapps/apesweb/local/lib/python2.7/site-packages/gunicorn/arbiter.py", line 507, in spawn_worker
+    worker.init_process()
+  File "/webapps/apesweb/local/lib/python2.7/site-packages/gunicorn/workers/base.py", line 118, in init_process
+    self.wsgi = self.app.wsgi()
+  File "/webapps/apesweb/local/lib/python2.7/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/webapps/apesweb/local/lib/python2.7/site-packages/gunicorn/app/wsgiapp.py", line 65, in load
+    return self.load_wsgiapp()
+  File "/webapps/apesweb/local/lib/python2.7/site-packages/gunicorn/app/wsgiapp.py", line 52, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/webapps/apesweb/local/lib/python2.7/site-packages/gunicorn/util.py", line 355, in import_app
+    __import__(module)
+  File "/webapps/apesweb/apesii/wsgi.py", line 16, in <module>
+    application = get_wsgi_application()
+  File "/webapps/apesweb/local/lib/python2.7/site-packages/django/core/wsgi.py", line 14, in get_wsgi_application
+    django.setup()
+  File "/webapps/apesweb/local/lib/python2.7/site-packages/django/__init__.py", line 17, in setup
+    configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)
+  File "/webapps/apesweb/local/lib/python2.7/site-packages/django/conf/__init__.py", line 48, in __getattr__
+    self._setup(name)
+  File "/webapps/apesweb/local/lib/python2.7/site-packages/django/conf/__init__.py", line 42, in _setup
+    % (desc, ENVIRONMENT_VARIABLE))
+ImproperlyConfigured: Requested setting LOGGING_CONFIG, but settings are not configured. You must either define the environment variable DJANGO_SETTINGS_MODULE or call settings.configure() before accessing settings.
+Traceback (most recent call last):
+  File "/webapps/apesweb/local/lib/python2.7/site-packages/gunicorn/arbiter.py", line 507, in spawn_worker
+    worker.init_process()
+  File "/webapps/apesweb/local/lib/python2.7/site-packages/gunicorn/workers/base.py", line 118, in init_process
+    self.wsgi = self.app.wsgi()
+  File "/webapps/apesweb/local/lib/python2.7/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/webapps/apesweb/local/lib/python2.7/site-packages/gunicorn/app/wsgiapp.py", line 65, in load
+    return self.load_wsgiapp()
+  File "/webapps/apesweb/local/lib/python2.7/site-packages/gunicorn/app/wsgiapp.py", line 52, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/webapps/apesweb/local/lib/python2.7/site-packages/gunicorn/util.py", line 355, in import_app
+    __import__(module)
+  File "/webapps/apesweb/apesii/wsgi.py", line 16, in <module>
+    application = get_wsgi_application()
+  File "/webapps/apesweb/local/lib/python2.7/site-packages/django/core/wsgi.py", line 14, in get_wsgi_application
+    django.setup()
+  File "/webapps/apesweb/local/lib/python2.7/site-packages/django/__init__.py", line 17, in setup
+    configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)
+  File "/webapps/apesweb/local/lib/python2.7/site-packages/django/conf/__init__.py", line 48, in __getattr__
+    self._setup(name)
+  File "/webapps/apesweb/local/lib/python2.7/site-packages/django/conf/__init__.py", line 42, in _setup
+    % (desc, ENVIRONMENT_VARIABLE))
+ImproperlyConfigured: Requested setting LOGGING_CONFIG, but settings are not configured. You must either define the environment variable DJANGO_SETTINGS_MODULE or call settings.configure() before accessing settings.
+[2015-09-01 06:56:35 +0000] [27411] [INFO] Worker exiting (pid: 27411)
+[2015-09-01 06:56:35 +0000] [27399] [INFO] Shutting down: Master
+[2015-09-01 06:56:35 +0000] [27399] [INFO] Reason: Worker failed to boot.
+/webapps/apesweb/bin/gunicorn_start.bash: line 10: DJANGO_SETTINGS_MODULE: command not found
+Starting apesii as ntwebuser
+[2015-09-01 06:56:36 +0000] [27414] [INFO] Starting gunicorn 19.3.0
+[2015-09-01 06:56:36 +0000] [27414] [INFO] Listening at: http://0.0.0.0:8100 (27414)
+[2015-09-01 06:56:36 +0000] [27414] [INFO] Using worker: sync
+[2015-09-01 06:56:36 +0000] [27426] [INFO] Booting worker with pid: 27426
+[2015-09-01 06:56:37 +0000] [27426] [ERROR] Exception in worker process:
+Traceback (most recent call last):
+  File "/webapps/apesweb/local/lib/python2.7/site-packages/gunicorn/arbiter.py", line 507, in spawn_worker
+    worker.init_process()
+  File "/webapps/apesweb/local/lib/python2.7/site-packages/gunicorn/workers/base.py", line 118, in init_process
+    self.wsgi = self.app.wsgi()
+  File "/webapps/apesweb/local/lib/python2.7/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/webapps/apesweb/local/lib/python2.7/site-packages/gunicorn/app/wsgiapp.py", line 65, in load
+    return self.load_wsgiapp()
+  File "/webapps/apesweb/local/lib/python2.7/site-packages/gunicorn/app/wsgiapp.py", line 52, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/webapps/apesweb/local/lib/python2.7/site-packages/gunicorn/util.py", line 355, in import_app
+    __import__(module)
+  File "/webapps/apesweb/apesii/wsgi.py", line 16, in <module>
+    application = get_wsgi_application()
+  File "/webapps/apesweb/local/lib/python2.7/site-packages/django/core/wsgi.py", line 14, in get_wsgi_application
+    django.setup()
+  File "/webapps/apesweb/local/lib/python2.7/site-packages/django/__init__.py", line 17, in setup
+    configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)
+  File "/webapps/apesweb/local/lib/python2.7/site-packages/django/conf/__init__.py", line 48, in __getattr__
+    self._setup(name)
+  File "/webapps/apesweb/local/lib/python2.7/site-packages/django/conf/__init__.py", line 42, in _setup
+    % (desc, ENVIRONMENT_VARIABLE))
+ImproperlyConfigured: Requested setting LOGGING_CONFIG, but settings are not configured. You must either define the environment variable DJANGO_SETTINGS_MODULE or call settings.configure() before accessing settings.
+Traceback (most recent call last):
+  File "/webapps/apesweb/local/lib/python2.7/site-packages/gunicorn/arbiter.py", line 507, in spawn_worker
+    worker.init_process()
+  File "/webapps/apesweb/local/lib/python2.7/site-packages/gunicorn/workers/base.py", line 118, in init_process
+    self.wsgi = self.app.wsgi()
+  File "/webapps/apesweb/local/lib/python2.7/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/webapps/apesweb/local/lib/python2.7/site-packages/gunicorn/app/wsgiapp.py", line 65, in load
+    return self.load_wsgiapp()
+  File "/webapps/apesweb/local/lib/python2.7/site-packages/gunicorn/app/wsgiapp.py", line 52, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/webapps/apesweb/local/lib/python2.7/site-packages/gunicorn/util.py", line 355, in import_app
+    __import__(module)
+  File "/webapps/apesweb/apesii/wsgi.py", line 16, in <module>
+    application = get_wsgi_application()
+  File "/webapps/apesweb/local/lib/python2.7/site-packages/django/core/wsgi.py", line 14, in get_wsgi_application
+    django.setup()
+  File "/webapps/apesweb/local/lib/python2.7/site-packages/django/__init__.py", line 17, in setup
+    configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)
+  File "/webapps/apesweb/local/lib/python2.7/site-packages/django/conf/__init__.py", line 48, in __getattr__
+    self._setup(name)
+  File "/webapps/apesweb/local/lib/python2.7/site-packages/django/conf/__init__.py", line 42, in _setup
+    % (desc, ENVIRONMENT_VARIABLE))
+ImproperlyConfigured: Requested setting LOGGING_CONFIG, but settings are not configured. You must either define the environment variable DJANGO_SETTINGS_MODULE or call settings.configure() before accessing settings.
+[2015-09-01 06:56:37 +0000] [27426] [INFO] Worker exiting (pid: 27426)
+[2015-09-01 06:56:37 +0000] [27414] [INFO] Shutting down: Master
+[2015-09-01 06:56:37 +0000] [27414] [INFO] Reason: Worker failed to boot.
+/webapps/apesweb/bin/gunicorn_start.bash: line 10: DJANGO_SETTINGS_MODULE: command not found
+Starting apesii as ntwebuser
+[2015-09-01 06:56:38 +0000] [27429] [INFO] Starting gunicorn 19.3.0
+[2015-09-01 06:56:38 +0000] [27429] [INFO] Listening at: http://0.0.0.0:8100 (27429)
+[2015-09-01 06:56:38 +0000] [27429] [INFO] Using worker: sync
+[2015-09-01 06:56:38 +0000] [27441] [INFO] Booting worker with pid: 27441
+[2015-09-01 06:56:38 +0000] [27441] [ERROR] Exception in worker process:
+Traceback (most recent call last):
+  File "/webapps/apesweb/local/lib/python2.7/site-packages/gunicorn/arbiter.py", line 507, in spawn_worker
+    worker.init_process()
+  File "/webapps/apesweb/local/lib/python2.7/site-packages/gunicorn/workers/base.py", line 118, in init_process
+    self.wsgi = self.app.wsgi()
+  File "/webapps/apesweb/local/lib/python2.7/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/webapps/apesweb/local/lib/python2.7/site-packages/gunicorn/app/wsgiapp.py", line 65, in load
+    return self.load_wsgiapp()
+  File "/webapps/apesweb/local/lib/python2.7/site-packages/gunicorn/app/wsgiapp.py", line 52, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/webapps/apesweb/local/lib/python2.7/site-packages/gunicorn/util.py", line 355, in import_app
+    __import__(module)
+  File "/webapps/apesweb/apesii/wsgi.py", line 16, in <module>
+    application = get_wsgi_application()
+  File "/webapps/apesweb/local/lib/python2.7/site-packages/django/core/wsgi.py", line 14, in get_wsgi_application
+    django.setup()
+  File "/webapps/apesweb/local/lib/python2.7/site-packages/django/__init__.py", line 17, in setup
+    configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)
+  File "/webapps/apesweb/local/lib/python2.7/site-packages/django/conf/__init__.py", line 48, in __getattr__
+    self._setup(name)
+  File "/webapps/apesweb/local/lib/python2.7/site-packages/django/conf/__init__.py", line 42, in _setup
+    % (desc, ENVIRONMENT_VARIABLE))
+ImproperlyConfigured: Requested setting LOGGING_CONFIG, but settings are not configured. You must either define the environment variable DJANGO_SETTINGS_MODULE or call settings.configure() before accessing settings.
+Traceback (most recent call last):
+  File "/webapps/apesweb/local/lib/python2.7/site-packages/gunicorn/arbiter.py", line 507, in spawn_worker
+    worker.init_process()
+  File "/webapps/apesweb/local/lib/python2.7/site-packages/gunicorn/workers/base.py", line 118, in init_process
+    self.wsgi = self.app.wsgi()
+  File "/webapps/apesweb/local/lib/python2.7/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/webapps/apesweb/local/lib/python2.7/site-packages/gunicorn/app/wsgiapp.py", line 65, in load
+    return self.load_wsgiapp()
+  File "/webapps/apesweb/local/lib/python2.7/site-packages/gunicorn/app/wsgiapp.py", line 52, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/webapps/apesweb/local/lib/python2.7/site-packages/gunicorn/util.py", line 355, in import_app
+    __import__(module)
+  File "/webapps/apesweb/apesii/wsgi.py", line 16, in <module>
+    application = get_wsgi_application()
+  File "/webapps/apesweb/local/lib/python2.7/site-packages/django/core/wsgi.py", line 14, in get_wsgi_application
+    django.setup()
+  File "/webapps/apesweb/local/lib/python2.7/site-packages/django/__init__.py", line 17, in setup
+    configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)
+  File "/webapps/apesweb/local/lib/python2.7/site-packages/django/conf/__init__.py", line 48, in __getattr__
+    self._setup(name)
+  File "/webapps/apesweb/local/lib/python2.7/site-packages/django/conf/__init__.py", line 42, in _setup
+    % (desc, ENVIRONMENT_VARIABLE))
+ImproperlyConfigured: Requested setting LOGGING_CONFIG, but settings are not configured. You must either define the environment variable DJANGO_SETTINGS_MODULE or call settings.configure() before accessing settings.
+[2015-09-01 06:56:38 +0000] [27441] [INFO] Worker exiting (pid: 27441)
+[2015-09-01 06:56:38 +0000] [27429] [INFO] Shutting down: Master
+[2015-09-01 06:56:38 +0000] [27429] [INFO] Reason: Worker failed to boot.
+/webapps/apesweb/bin/gunicorn_start.bash: line 10: DJANGO_SETTINGS_MODULE: command not found
+Starting apesii as ntwebuser
+[2015-09-01 06:56:41 +0000] [27444] [INFO] Starting gunicorn 19.3.0
+[2015-09-01 06:56:41 +0000] [27444] [INFO] Listening at: http://0.0.0.0:8100 (27444)
+[2015-09-01 06:56:41 +0000] [27444] [INFO] Using worker: sync
+[2015-09-01 06:56:41 +0000] [27456] [INFO] Booting worker with pid: 27456
+[2015-09-01 06:56:41 +0000] [27456] [ERROR] Exception in worker process:
+Traceback (most recent call last):
+  File "/webapps/apesweb/local/lib/python2.7/site-packages/gunicorn/arbiter.py", line 507, in spawn_worker
+    worker.init_process()
+  File "/webapps/apesweb/local/lib/python2.7/site-packages/gunicorn/workers/base.py", line 118, in init_process
+    self.wsgi = self.app.wsgi()
+  File "/webapps/apesweb/local/lib/python2.7/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/webapps/apesweb/local/lib/python2.7/site-packages/gunicorn/app/wsgiapp.py", line 65, in load
+    return self.load_wsgiapp()
+  File "/webapps/apesweb/local/lib/python2.7/site-packages/gunicorn/app/wsgiapp.py", line 52, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/webapps/apesweb/local/lib/python2.7/site-packages/gunicorn/util.py", line 355, in import_app
+    __import__(module)
+  File "/webapps/apesweb/apesii/wsgi.py", line 16, in <module>
+    application = get_wsgi_application()
+  File "/webapps/apesweb/local/lib/python2.7/site-packages/django/core/wsgi.py", line 14, in get_wsgi_application
+    django.setup()
+  File "/webapps/apesweb/local/lib/python2.7/site-packages/django/__init__.py", line 17, in setup
+    configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)
+  File "/webapps/apesweb/local/lib/python2.7/site-packages/django/conf/__init__.py", line 48, in __getattr__
+    self._setup(name)
+  File "/webapps/apesweb/local/lib/python2.7/site-packages/django/conf/__init__.py", line 42, in _setup
+    % (desc, ENVIRONMENT_VARIABLE))
+ImproperlyConfigured: Requested setting LOGGING_CONFIG, but settings are not configured. You must either define the environment variable DJANGO_SETTINGS_MODULE or call settings.configure() before accessing settings.
+Traceback (most recent call last):
+  File "/webapps/apesweb/local/lib/python2.7/site-packages/gunicorn/arbiter.py", line 507, in spawn_worker
+    worker.init_process()
+  File "/webapps/apesweb/local/lib/python2.7/site-packages/gunicorn/workers/base.py", line 118, in init_process
+    self.wsgi = self.app.wsgi()
+  File "/webapps/apesweb/local/lib/python2.7/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/webapps/apesweb/local/lib/python2.7/site-packages/gunicorn/app/wsgiapp.py", line 65, in load
+    return self.load_wsgiapp()
+  File "/webapps/apesweb/local/lib/python2.7/site-packages/gunicorn/app/wsgiapp.py", line 52, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/webapps/apesweb/local/lib/python2.7/site-packages/gunicorn/util.py", line 355, in import_app
+    __import__(module)
+  File "/webapps/apesweb/apesii/wsgi.py", line 16, in <module>
+    application = get_wsgi_application()
+  File "/webapps/apesweb/local/lib/python2.7/site-packages/django/core/wsgi.py", line 14, in get_wsgi_application
+    django.setup()
+  File "/webapps/apesweb/local/lib/python2.7/site-packages/django/__init__.py", line 17, in setup
+    configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)
+  File "/webapps/apesweb/local/lib/python2.7/site-packages/django/conf/__init__.py", line 48, in __getattr__
+    self._setup(name)
+  File "/webapps/apesweb/local/lib/python2.7/site-packages/django/conf/__init__.py", line 42, in _setup
+    % (desc, ENVIRONMENT_VARIABLE))
+ImproperlyConfigured: Requested setting LOGGING_CONFIG, but settings are not configured. You must either define the environment variable DJANGO_SETTINGS_MODULE or call settings.configure() before accessing settings.
+[2015-09-01 06:56:41 +0000] [27456] [INFO] Worker exiting (pid: 27456)
+[2015-09-01 06:56:41 +0000] [27444] [INFO] Shutting down: Master
+[2015-09-01 06:56:41 +0000] [27444] [INFO] Reason: Worker failed to boot.
+/webapps/apesweb/bin/gunicorn_start.bash: line 10: DJANGO_SETTINGS_MODULE: command not found
+Starting apesii as ntwebuser
+[2015-09-01 06:56:45 +0000] [27459] [INFO] Starting gunicorn 19.3.0
+[2015-09-01 06:56:45 +0000] [27459] [INFO] Listening at: http://0.0.0.0:8100 (27459)
+[2015-09-01 06:56:45 +0000] [27459] [INFO] Using worker: sync
+[2015-09-01 06:56:45 +0000] [27471] [INFO] Booting worker with pid: 27471
+[2015-09-01 06:56:45 +0000] [27471] [ERROR] Exception in worker process:
+Traceback (most recent call last):
+  File "/webapps/apesweb/local/lib/python2.7/site-packages/gunicorn/arbiter.py", line 507, in spawn_worker
+    worker.init_process()
+  File "/webapps/apesweb/local/lib/python2.7/site-packages/gunicorn/workers/base.py", line 118, in init_process
+    self.wsgi = self.app.wsgi()
+  File "/webapps/apesweb/local/lib/python2.7/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/webapps/apesweb/local/lib/python2.7/site-packages/gunicorn/app/wsgiapp.py", line 65, in load
+    return self.load_wsgiapp()
+  File "/webapps/apesweb/local/lib/python2.7/site-packages/gunicorn/app/wsgiapp.py", line 52, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/webapps/apesweb/local/lib/python2.7/site-packages/gunicorn/util.py", line 355, in import_app
+    __import__(module)
+  File "/webapps/apesweb/apesii/wsgi.py", line 16, in <module>
+    application = get_wsgi_application()
+  File "/webapps/apesweb/local/lib/python2.7/site-packages/django/core/wsgi.py", line 14, in get_wsgi_application
+    django.setup()
+  File "/webapps/apesweb/local/lib/python2.7/site-packages/django/__init__.py", line 17, in setup
+    configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)
+  File "/webapps/apesweb/local/lib/python2.7/site-packages/django/conf/__init__.py", line 48, in __getattr__
+    self._setup(name)
+  File "/webapps/apesweb/local/lib/python2.7/site-packages/django/conf/__init__.py", line 42, in _setup
+    % (desc, ENVIRONMENT_VARIABLE))
+ImproperlyConfigured: Requested setting LOGGING_CONFIG, but settings are not configured. You must either define the environment variable DJANGO_SETTINGS_MODULE or call settings.configure() before accessing settings.
+Traceback (most recent call last):
+  File "/webapps/apesweb/local/lib/python2.7/site-packages/gunicorn/arbiter.py", line 507, in spawn_worker
+    worker.init_process()
+  File "/webapps/apesweb/local/lib/python2.7/site-packages/gunicorn/workers/base.py", line 118, in init_process
+    self.wsgi = self.app.wsgi()
+  File "/webapps/apesweb/local/lib/python2.7/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/webapps/apesweb/local/lib/python2.7/site-packages/gunicorn/app/wsgiapp.py", line 65, in load
+    return self.load_wsgiapp()
+  File "/webapps/apesweb/local/lib/python2.7/site-packages/gunicorn/app/wsgiapp.py", line 52, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/webapps/apesweb/local/lib/python2.7/site-packages/gunicorn/util.py", line 355, in import_app
+    __import__(module)
+  File "/webapps/apesweb/apesii/wsgi.py", line 16, in <module>
+    application = get_wsgi_application()
+  File "/webapps/apesweb/local/lib/python2.7/site-packages/django/core/wsgi.py", line 14, in get_wsgi_application
+    django.setup()
+  File "/webapps/apesweb/local/lib/python2.7/site-packages/django/__init__.py", line 17, in setup
+    configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)
+  File "/webapps/apesweb/local/lib/python2.7/site-packages/django/conf/__init__.py", line 48, in __getattr__
+    self._setup(name)
+  File "/webapps/apesweb/local/lib/python2.7/site-packages/django/conf/__init__.py", line 42, in _setup
+    % (desc, ENVIRONMENT_VARIABLE))
+ImproperlyConfigured: Requested setting LOGGING_CONFIG, but settings are not configured. You must either define the environment variable DJANGO_SETTINGS_MODULE or call settings.configure() before accessing settings.
+[2015-09-01 06:56:45 +0000] [27471] [INFO] Worker exiting (pid: 27471)
+[2015-09-01 06:56:45 +0000] [27459] [INFO] Shutting down: Master
+[2015-09-01 06:56:45 +0000] [27459] [INFO] Reason: Worker failed to boot.
+Starting apesii as ntwebuser
+[2015-09-01 07:47:14 +0000] [28046] [INFO] Starting gunicorn 19.3.0
+[2015-09-01 07:47:14 +0000] [28046] [INFO] Listening at: http://0.0.0.0:8100 (28046)
+[2015-09-01 07:47:14 +0000] [28046] [INFO] Using worker: sync
+[2015-09-01 07:47:14 +0000] [28057] [INFO] Booting worker with pid: 28057
+[2015-09-01 10:45:29 +0000] [28046] [INFO] Handling signal: term
+[2015-09-01 14:45:29 +0000] [28057] [INFO] Worker exiting (pid: 28057)
+/webapps/apesweb/apesii/static
+staticpath = /webapps/apesweb/apesii/static
+mediadir = /media/ media root is /webapps/apesweb/apesii/media
+[2015-09-01 10:45:30 +0000] [28046] [INFO] Shutting down: Master
+Starting apesii as ntwebuser
+[2015-09-01 10:45:39 +0000] [28730] [INFO] Starting gunicorn 19.3.0
+[2015-09-01 10:45:39 +0000] [28730] [INFO] Listening at: http://0.0.0.0:8100 (28730)
+[2015-09-01 10:45:39 +0000] [28730] [INFO] Using worker: sync
+[2015-09-01 10:45:39 +0000] [28742] [INFO] Booting worker with pid: 28742
+[2015-09-01 12:25:37 +0000] [28730] [INFO] Handling signal: term
+[2015-09-01 16:25:37 +0000] [28742] [INFO] Worker exiting (pid: 28742)
+[2015-09-01 12:25:38 +0000] [28730] [INFO] Shutting down: Master
+Starting apesii as ntwebuser
+[2015-09-01 12:26:24 +0000] [29212] [INFO] Starting gunicorn 19.3.0
+[2015-09-01 12:26:24 +0000] [29212] [INFO] Listening at: http://0.0.0.0:8100 (29212)
+[2015-09-01 12:26:24 +0000] [29212] [INFO] Using worker: sync
+[2015-09-01 12:26:24 +0000] [29223] [INFO] Booting worker with pid: 29223
+[2015-09-01 12:31:14 +0000] [29212] [INFO] Handling signal: term
+[2015-09-01 16:31:14 +0000] [29223] [INFO] Worker exiting (pid: 29223)
+[2015-09-01 12:31:14 +0000] [29212] [INFO] Shutting down: Master
+Starting apesii as ntwebuser
+[2015-09-01 12:31:21 +0000] [29289] [INFO] Starting gunicorn 19.3.0
+[2015-09-01 12:31:21 +0000] [29289] [INFO] Listening at: http://0.0.0.0:8100 (29289)
+[2015-09-01 12:31:21 +0000] [29289] [INFO] Using worker: sync
+[2015-09-01 12:31:21 +0000] [29300] [INFO] Booting worker with pid: 29300
+[2015-09-01 12:32:20 +0000] [29289] [INFO] Handling signal: term
+[2015-09-01 16:32:20 +0000] [29300] [INFO] Worker exiting (pid: 29300)
+[2015-09-01 12:32:20 +0000] [29289] [INFO] Shutting down: Master
+Starting apesii as ntwebuser
+[2015-09-01 12:32:24 +0000] [29309] [INFO] Starting gunicorn 19.3.0
+[2015-09-01 12:32:24 +0000] [29309] [INFO] Listening at: http://0.0.0.0:8100 (29309)
+[2015-09-01 12:32:24 +0000] [29309] [INFO] Using worker: sync
+[2015-09-01 12:32:24 +0000] [29320] [INFO] Booting worker with pid: 29320
+[2015-09-01 12:36:01 +0000] [29309] [INFO] Handling signal: term
+[2015-09-01 16:36:01 +0000] [29320] [INFO] Worker exiting (pid: 29320)
+[2015-09-01 12:36:01 +0000] [29309] [INFO] Shutting down: Master
+Starting apesii as ntwebuser
+[2015-09-01 12:51:03 +0000] [29431] [INFO] Starting gunicorn 19.3.0
+[2015-09-01 12:51:03 +0000] [29431] [INFO] Listening at: http://0.0.0.0:8100 (29431)
+[2015-09-01 12:51:03 +0000] [29431] [INFO] Using worker: sync
+[2015-09-01 12:51:03 +0000] [29442] [INFO] Booting worker with pid: 29442

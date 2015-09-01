@@ -1,0 +1,14 @@
+{% extends 'base.html'%}
+{% load crispy_forms_tags %}
+
+{%block body_block%}
+<div class = row>
+   <div class = "col-md-5">
+    <form action='stafflist' method='POST'> {% csrf_token %}
+    {{form |crispy   }}
+   
+</form>
+    
+   </div>
+</div>
+{%endblock%}
