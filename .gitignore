@@ -1,12 +1,14 @@
 *.pyc
 manage.py
 keys.py
+*keys.py
 /static
 /lib
 /bin
 /local
 *.komodoproject
-
+/static
+/static1
   include/
  pip-selfcheck.json
-
+.gitignore

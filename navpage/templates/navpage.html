@@ -1,19 +1,107 @@
-{% extends 'base.html' %}
+{%extends 'base.html'%}
+
+{%block page_header%}
+		   <div align="center">
+		   <h2>Automated Production Engineering and Sales System II</h2>
+		   </div>
+{%endblock%}
 
 
-{%block body_block %}
- <div class="modal-body">
-            <button class="btn btn-success btn-lg btn-block" >Tec Support</button>{% csrf_token %}
-            <button class="btn btn-success btn-lg btn-block" >Field Service</button>
-            <button class="btn btn-success btn-lg btn-block" >Parts Orders</button>
-            <button class="btn btn-success btn-lg btn-block" >Projects</button>
+{%block body_block%}
+		   {% csrf_token %}
+    	
+ <div class="row">
+		
+          <div class="col-xs-2 " >
+            <button class="btn btn-success btn-lg btn-block" >CRM</button>
+			<button class="btn btn-primary btn-xs btn-block" >Outside Sales</button>
+			<button class="btn btn-primary btn-xs btn-block" >Contact db</button>
+			<button class="btn btn-primary btn-xs btn-block" >Prospects</button>
+			<button class="btn btn-primary btn-xs btn-block" >Sales Calls</button>
+		  </div>
+		   <div class="col-xs-2 " >
+            <button class="btn btn-success btn-lg btn-block" >Tec Support</button>
+			<button class="btn btn-primary btn-xs btn-block" >All Open</button>
+			<button class="btn btn-primary btn-xs btn-block" >Call Entry</button>
+			<button class="btn btn-primary btn-xs btn-block" >Site Visits</button>
+			<button class="btn btn-primary btn-xs btn-block" >STO FSWO PART Ord.</button>
+          </div>
+		   <div class="col-xs-2 " >
+           <button class="btn btn-success btn-lg btn-block" >Field Service</button>
+		   <button class="btn btn-primary btn-xs btn-block" >All Open</button>
+			<button class="btn btn-primary btn-xs btn-block" >FSWO</button>
+			<button class="btn btn-primary btn-xs btn-block" >Start Ups</button>
+			<button class="btn btn-primary btn-xs btn-block" >Service Menu</button>
+			<button class="btn btn-primary btn-xs btn-block" >Modify</button>
+		  </div>
+		   <div class="col-xs-2 ">
+            <button class="btn btn-success btn-lg btn-block" >Part Orders</button>
+			<button class="btn btn-primary btn-xs btn-block" >Outside Sales</button>
+			<button class="btn btn-primary btn-xs btn-block" >Contact db</button>
+			<button class="btn btn-primary btn-xs btn-block" >Prospects</button>
+			<button class="btn btn-primary btn-xs btn-block" >Sales Calls</button>
+          </div>
+		    <div class="col-xs-2 " >
+           <button class="btn btn-success btn-lg btn-block" >Projects</button>
+		   <button class="btn btn-primary btn-xs btn-block" >Main</button>
+			<button class="btn btn-primary btn-xs btn-block" >Add New</button>
+			<button class="btn btn-primary btn-xs btn-block" >Project Mgmt</button>
+			<button class="btn btn-primary btn-xs btn-block" >Maintenance</button>
+			<button class="btn btn-primary btn-xs btn-block" >Eng Menu</button>
+			<button class="btn btn-primary btn-xs btn-block" >Mgmt Report</button>
+		  </div>
+		                      
+	 </div><!--/.row-->
+	 
+  <!--<div class="row">
+		   <h3>-</h3>
+  </div>-->
+		   
+<hr>
+   <div class="row">
+		
+          <div class="col-xs-2 " >
             <button class="btn btn-success btn-lg btn-block" >Schedules</button>
-			<button class="btn btn-success btn-lg btn-block" href >Staff</button>
-            </div>
-          </form>
-      </div>
-      <div class="modal-footer">
-         
-      </div>
-
+			<button class="btn btn-primary btn-xs btn-block" >All</button>
+			<button class="btn btn-primary btn-xs btn-block" >By Person</button>
+			<button class="btn btn-primary btn-xs btn-block" >Reports</button>
+			<button class="btn btn-primary btn-xs btn-block" >HOLDs</button>
+			<button class="btn btn-primary btn-xs btn-block" >Production</button>
+			<button class="btn btn-primary btn-xs btn-block" >Assem Prod</button>
+		  </div>
+		   <div class="col-xs-2 " >
+            <button class="btn btn-success btn-lg btn-block" >Purchasing</button>
+			<button class="btn btn-primary btn-xs btn-block" >Parts</button>
+			<button class="btn btn-primary btn-xs btn-block" >Vendors</button>
+			<button class="btn btn-primary btn-xs btn-block" >PO Main</button>
+			<button class="btn btn-primary btn-xs btn-block" >Inventory</button>
+		   </div>
+		   <div class="col-xs-2 " >
+           <button class="btn btn-success btn-lg btn-block" >HR</button>
+		    <button class="btn btn-primary btn-xs btn-block" >Staff Report</button>
+		    <button class="btn btn-primary btn-xs btn-block" >Staff Display</button>
+			<button class="btn btn-primary btn-xs btn-block" >Staff Entry</button>
+		  </div>
+		   <div class="col-xs-2 ">
+            <button class="btn btn-success btn-lg btn-block" >Misc</button>
+			<button class="btn btn-primary btn-xs btn-block" >Conversions</button>
+			<button class="btn btn-primary btn-xs btn-block" >Technical</button>
+			<button class="btn btn-primary btn-xs btn-block" >ACFM</button>
+			<button class="btn btn-primary btn-xs btn-block" >Addresses</button>
+			<button class="btn btn-primary btn-xs btn-block" >My Tasks</button>
+			<button class="btn btn-primary btn-xs btn-block" >Scorecard</button>
+			<button class="btn btn-primary btn-xs btn-block" >Quality</button>
+			<button class="btn btn-primary btn-xs btn-block" >Ideas Bugs</button>
+          </div>
+		    <div class="col-xs-2 " >
+           <button class="btn btn-success btn-lg btn-block" >Accounting</button>
+		  </div>
+		 
+		   
+ </div><!--/.row-->  
+    
+    
 {% endblock %}
+<!--<div class="col-xs-2 " >
+           <button class="btn btn-success btn-lg btn-block" onclick = "location.href='/staff';" >HR</button>
+          </div>-->
