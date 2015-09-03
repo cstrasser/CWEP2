@@ -34,6 +34,7 @@ urlpatterns = [
     url(r'^admin/', include(admin.site.urls)),
     url(r'^staff/', include('staff.urls')),
     url(r'^navpage/$', 'navpage.views.navpage', name='navpage'),
+    url(r'^sto/', include('sto.urls')),
     url(r'^$', RedirectView.as_view(url='/login', permanent=False), name='logindex')
     
 ]

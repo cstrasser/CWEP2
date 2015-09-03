@@ -6,7 +6,6 @@
 		   </div>
 {%endblock%}
 
-
 {%block body_block%}
 		   {% csrf_token %}
     	
@@ -28,7 +27,7 @@
 			<button class="btn btn-primary btn-xs btn-block" >All Open</button>
 			<button class="btn btn-primary btn-xs btn-block" >Call Entry</button>
 			<button class="btn btn-primary btn-xs btn-block" >Site Visits</button>
-			<button class="btn btn-primary btn-xs btn-block" >STO FSWO PART Ord.</button>
+			<button class="btn btn-primary btn-xs btn-block" onclick = "location.href='/sto';">STO FSWO PART Ord.</button>
           </div>
 		   <div class="col-xs-2 " >
            <button class="btn btn-success btn-lg btn-block" >Field Service</button>
@@ -40,10 +39,11 @@
 		  </div>
 		   <div class="col-xs-2 ">
             <button class="btn btn-success btn-lg btn-block" >Part Orders</button>
-			<button class="btn btn-primary btn-xs btn-block" >Outside Sales</button>
-			<button class="btn btn-primary btn-xs btn-block" >Contact db</button>
-			<button class="btn btn-primary btn-xs btn-block" >Prospects</button>
-			<button class="btn btn-primary btn-xs btn-block" >Sales Calls</button>
+			<button class="btn btn-primary btn-xs btn-block" >All</button>
+			<button class="btn btn-primary btn-xs btn-block" >Part Order</button>
+			<button class="btn btn-primary btn-xs btn-block" >Add Track #</button>
+			<button class="btn btn-primary btn-xs btn-block" >Reports</button>
+			<button class="btn btn-primary btn-xs btn-block" >Modify</button>
           </div>
 		    <div class="col-xs-2 " >
 			<button class="btn btn-success btn-lg btn-block" >Misc</button>
@@ -86,7 +86,7 @@
 		   <div class="col-xs-2 " >
            <button class="btn btn-success btn-lg btn-block" >HR</button>
 		    <button class="btn btn-primary btn-xs btn-block" >Staff Report</button>
-		    <button class="btn btn-primary btn-xs btn-block" >Staff Display</button>
+		    <button class="btn btn-primary btn-xs btn-block" onclick = "location.href='/staff';">Staff Display</button>
 			<button class="btn btn-primary btn-xs btn-block" >Staff Entry</button>
 			<button class="btn btn-success btn-lg btn-block" >Rental</button>
 		    <button class="btn btn-primary btn-xs btn-block" >Main</button>

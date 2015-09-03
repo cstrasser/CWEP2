@@ -1,5 +1,6 @@
 *.pyc
 manage.py
+/include
 keys.py
 *keys.py
 /static
