@@ -22,6 +22,12 @@ def staffform(request,staff_id):
         
     else:
       form = StaffForm(instance = member)   
-     
+      form.fields['number'].widget.attrs['readonly'] = True    
     return render(request, 'staff/staffform.html',{'form':form})
     
+    
+ # r = Resume.get.object(pk=r_id)
+ #    resume = ResumeModelForm(instance=r)
+ #    .....
+ #    resume.fields['email'].widget.attrs['readonly'] = True 
+ #    .....    

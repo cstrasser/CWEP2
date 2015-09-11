@@ -65,8 +65,8 @@ class Staff(models.Model):
     first_name = models.CharField(db_column='Staff_First_Name', max_length=50, blank=True, null=True)  # Field name made lowercase.
     last_name = models.CharField(db_column='Staff_Last_Name', max_length=50, blank=True, null=True)  # Field name made lowercase.
     email = models.CharField(db_column='Staff_E_Mail', max_length=50, blank=True, null=True)  # Field name made lowercase.
-    designation = models.ForeignKey(Staffdesignation,db_column='Staff_Designation')
-    #designation = models.CharField(db_column='Staff_Designation', max_length=50, blank=True, null=True)  # Field name made lowercase.
+    #designation = models.ForeignKey(Staffdesignation,db_column='Staff_Designation')
+    designation = models.CharField(db_column='Staff_Designation', max_length=50, blank=True, null=True)  # Field name made lowercase.
     paytype = models.CharField(db_column='Staff_PayType', max_length=50, blank=True, null=True)  # Field name made lowercase.
     birthdate = models.DateTimeField(db_column='Staff_Birthdate', blank=True, null=True)  # Field name made lowercase.
     last_trans = models.CharField(db_column='Staff_Last_Trans', max_length=50, blank=True, null=True)  # Field name made lowercase.
@@ -76,20 +76,38 @@ class Staff(models.Model):
     pin = models.CharField(db_column='Staff_PIN', max_length=50, blank=True, null=True)  # Field name made lowercase.
     att_time = models.DateTimeField(db_column='Staff_Att_Time', blank=True, null=True)  # Field name made lowercase.
     default_company = models.IntegerField(db_column = 'default_company')
-    default_ml_loc = models.CharField(db_column='default_ML_Loc', max_length=3, blank=True, null=True)  # Field name made lowercase.
+    #default_ml_loc = models.CharField(db_column='default_ML_Loc', max_length=3, blank=True, null=True)
+    default_ml_loc = models.ForeignKey(Company,db_column='default_ML_Loc', max_length=3, blank=True, null=True)
 
     class Meta:
         managed = False
+        ordering = ['last_name']
         db_table = 'tblStaff'
         
     def __str__(self):
        #return self.name
-       return unicode(self.staffname).encode('utf-8')
+       if self.last_name:
+           return '%s %s' %(self.last_name,self.first_name )
+       else:
+           return unicode(self.staffname).encode('utf-8')
     
     def get_emergency_contact(self):
-        return '%s %s' %(self.emg_contact_name,self.emg_contact_phone)
+        if self.emg_contact_name:
+            emergency_contact =  '%s %s' %(self.emg_contact_name,self.emg_contact_phone)
+        else:
+            emergency_contact = 'No emergency Contact on File'
+        return emergency_contact    
     emergency_contact = property(get_emergency_contact)
 # the bit of code above will allow you to do x= Staff.emergency_contact x will be the  name and number
 
+    def get_fields(self):
+        ''' returns list of fieldnames and values for user edit form 
+         ... this one is trickey .. allfields makes list of tuples of all fields and values in model (based on a call from one pk)
+         then displayfields removes all the tuples that have names we dont want to display in the list ie removes values we can't edit
+         and don't have much use on the user (staff) edit form''' 
+        allfields = [(field.verbose_name, field._get_val_from_obj(self)) for field in self.__class__._meta.fields]
+        displayfields = [field for field in allfields if field[0] not in ['staffname','user','attendance','att date','att time','last trans']]
+        print displayfields
+        return displayfields
 
 

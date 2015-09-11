@@ -17,11 +17,13 @@ from django.conf.urls import include, url
 from django.contrib import admin
 from django.views.generic.base import RedirectView
 
+
 admin.site.site_header = 'APESII Administration'
 #admin.site.register(Customer)
 #admin.site.register(LocationMaster)
 #admin.site.register(STO)
 #admin.site.register(Contact)
+from staff2.views import StaffUpdateView , StaffListView , StaffDetailView
 
 
 
@@ -35,6 +37,9 @@ urlpatterns = [
     url(r'^staff/', include('staff.urls')),
     url(r'^navpage/$', 'navpage.views.navpage', name='navpage'),
     url(r'^sto/', include('sto.urls')),
-    url(r'^$', RedirectView.as_view(url='/login', permanent=False), name='logindex')
+    url(r'^$', RedirectView.as_view(url='/login', permanent=False), name='logindex'),
+    url(r'^s1/(?P<pk>\d+)/$', view = StaffDetailView.as_view(), name = "staffdetailview"),
+    url(r'^s2/(?P<pk>\d+)/$', view = StaffUpdateView.as_view(), name = "staffupdateview"),
+    url(r'^s3', view = StaffListView.as_view(), name = "stafflistview"),
     
 ]
