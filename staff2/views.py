@@ -9,6 +9,7 @@ class StaffListView(ListView):
    
 class StaffUpdateView(UpdateView):
     model = Staff
+    context_object_name = 'staffmember'
     fields  = ('staffname','first_name' ,'last_name', 'home_phone')
     
     

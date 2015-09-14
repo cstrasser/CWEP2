@@ -3,7 +3,7 @@ from django.contrib.auth.models import User
 
 class Company(models.Model): # company is newterra co ... LTD INC,SPA
     id = models.AutoField(db_column='id', primary_key=True)
-    company = models.CharField(max_length=128)
+    company = models.CharField("Company Name",max_length=128)
     country = models.CharField(max_length=50)
     company_currency = models.CharField(max_length=50)
     bill_addr1 = models.CharField(max_length=50, blank=True, null=True)
@@ -18,7 +18,10 @@ class Company(models.Model): # company is newterra co ... LTD INC,SPA
     class Meta:
         managed = False
         db_table = 'tblCompany'
+        
     def __str__(self):
+        print "COMPANY %s" %(self.company)
+    
         return (self.company)
 
 
@@ -54,7 +57,7 @@ class Staff(models.Model):
     phone_ext = models.CharField(db_column='Staff_phone_ext', max_length=50, blank=True, null=True)  # Field name made lowercase.
     cell = models.CharField(db_column='Staff_cell', max_length=50, blank=True, null=True)  # Field name made lowercase.
     home_phone = models.CharField(db_column='Staff_home_phone', max_length=50, blank=True, null=True)  # Field name made lowercase.
-    emg_contact_name = models.CharField(db_column='Staff_contact_name', max_length=50, blank=True, null=True)  # Field name made lowercase.
+    emg_contact_name = models.CharField("Emergency contact person",db_column='Staff_contact_name', max_length=50, blank=True, null=True)  # Field name made lowercase.
     emg_contact_phone = models.CharField(db_column='Staff_contact_phone', max_length=50, blank=True, null=True)  # Field name made lowercase.
     address = models.CharField(db_column='Staff_Address', max_length=50, blank=True, null=True)  # Field name made lowercase.
     start_date = models.DateTimeField(db_column='Staff_Start_Date', blank=True, null=True)  # Field name made lowercase.
@@ -77,7 +80,7 @@ class Staff(models.Model):
     att_time = models.DateTimeField(db_column='Staff_Att_Time', blank=True, null=True)  # Field name made lowercase.
     default_company = models.IntegerField(db_column = 'default_company')
     #default_ml_loc = models.CharField(db_column='default_ML_Loc', max_length=3, blank=True, null=True)
-    default_ml_loc = models.ForeignKey(Company,db_column='default_ML_Loc', max_length=3, blank=True, null=True)
+    default_ml_loc = models.ForeignKey('Company',db_column='default_ML_Loc') #, max_length=3, blank=True, null=True)
 
     class Meta:
         managed = False
@@ -91,6 +94,10 @@ class Staff(models.Model):
        else:
            return unicode(self.staffname).encode('utf-8')
     
+    @property
+    def propertyidea(self):
+        return "This is from the property decorator"
+    
     def get_emergency_contact(self):
         if self.emg_contact_name:
             emergency_contact =  '%s %s' %(self.emg_contact_name,self.emg_contact_phone)
@@ -100,14 +107,14 @@ class Staff(models.Model):
     emergency_contact = property(get_emergency_contact)
 # the bit of code above will allow you to do x= Staff.emergency_contact x will be the  name and number
 
-    def get_fields(self):
+    def get_displayfields(self):
         ''' returns list of fieldnames and values for user edit form 
          ... this one is trickey .. allfields makes list of tuples of all fields and values in model (based on a call from one pk)
          then displayfields removes all the tuples that have names we dont want to display in the list ie removes values we can't edit
-         and don't have much use on the user (staff) edit form''' 
-        allfields = [(field.verbose_name, field._get_val_from_obj(self)) for field in self.__class__._meta.fields]
-        displayfields = [field for field in allfields if field[0] not in ['staffname','user','attendance','att date','att time','last trans']]
-        print displayfields
+         and don't have much use on the user (staff) list form remember that the object can still b referneced like: object.staffname''' 
+        allfields = [(field.verbose_name.capitalize(), field._get_val_from_obj(self)) for field in self.__class__._meta.fields]
+        displayfields = [field for field in allfields if field[0] not in
+                         ['Staffname','User','Attendance','Att date','Att time','Last trans']]    
         return displayfields
 
 
