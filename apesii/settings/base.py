@@ -24,7 +24,7 @@ INSTALLED_APPS = (
     'logauth',
     'staff',
     'navpage',
-    'staff2',
+    
 )
 
 MIDDLEWARE_CLASSES = (

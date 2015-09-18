@@ -1,5 +1,19 @@
 from base import *
 
+INSTALLED_APPS = (
+    'django.contrib.admin',
+    'django.contrib.auth',
+    'django.contrib.contenttypes',
+    'django.contrib.sessions',
+    'django.contrib.messages',
+    'django.contrib.staticfiles',
+    'crispy_forms', 
+    'logauth',
+    'staff',
+    'navpage',
+    'staff2',
+)
+
 DATABASES = {
     'default': {
     'ENGINE': 'sql_server.pyodbc',
